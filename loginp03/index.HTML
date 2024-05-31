@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario </title>
+    <link rel="stylesheet" href="/style/style.CSS">
+</head>
+<body>
+    <video autoplay loop muted id="VideoFondo">
+        <source src="/The Drive 4K 60fps Loop Copyright Free Background Screensaver Footage.mp4" type="video/mp4"/>
+    </video>
+    <div class="formulario">
+    <form method="post" action="login.php" >
+        <label for="usuario">Usuario </label><br />
+        <input type="text" id="usuario"  name="usuario" required /><br />
+        
+        <label for="contraseña">Contraseña </label><br />
+        <input type="password" id="password" name="password" required /><br />
+
+        <input type="submit" value="ingresar"/>
+        <button type ="button" onclick="location.href='view/v_register.php'">
+            Registrar
+        </button>
+        <button type ="button" onclick="location.href='view/select.php'">
+            Mostrar
+        </button>
+    </form>
+</div>
+</body>
+</html>
